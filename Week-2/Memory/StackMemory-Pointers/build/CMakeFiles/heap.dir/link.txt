@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/heap.dir/HeapMemory.cpp.o  -o heap 
