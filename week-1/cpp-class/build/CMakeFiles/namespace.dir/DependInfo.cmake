@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/Cube.cpp" "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/cube.dir/Cube/Cube.cpp.o"
-  "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/main.cpp" "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/cube.dir/Cube/main.cpp.o"
+  "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/NameSpace/Cube.cpp" "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/namespace.dir/NameSpace/Cube.cpp.o"
+  "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/NameSpace/main.cpp" "/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/namespace.dir/NameSpace/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

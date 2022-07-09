@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named namespace
+
+# Build rule for target.
+namespace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 namespace
+.PHONY : namespace
+
+# fast build rule for target.
+namespace/fast:
+	$(MAKE) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/build
+.PHONY : namespace/fast
+
+#=============================================================================
 # Target rules for targets named cube
 
 # Build rule for target.
@@ -123,59 +136,113 @@ cube/fast:
 	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/build
 .PHONY : cube/fast
 
-Cube.o: Cube.cpp.o
+Cube/Cube.o: Cube/Cube.cpp.o
 
-.PHONY : Cube.o
-
-# target to build an object file
-Cube.cpp.o:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube.cpp.o
-.PHONY : Cube.cpp.o
-
-Cube.i: Cube.cpp.i
-
-.PHONY : Cube.i
-
-# target to preprocess a source file
-Cube.cpp.i:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube.cpp.i
-.PHONY : Cube.cpp.i
-
-Cube.s: Cube.cpp.s
-
-.PHONY : Cube.s
-
-# target to generate assembly for a file
-Cube.cpp.s:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube.cpp.s
-.PHONY : Cube.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : Cube/Cube.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/main.cpp.o
-.PHONY : main.cpp.o
+Cube/Cube.cpp.o:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube/Cube.cpp.o
+.PHONY : Cube/Cube.cpp.o
 
-main.i: main.cpp.i
+Cube/Cube.i: Cube/Cube.cpp.i
 
-.PHONY : main.i
+.PHONY : Cube/Cube.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/main.cpp.i
-.PHONY : main.cpp.i
+Cube/Cube.cpp.i:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube/Cube.cpp.i
+.PHONY : Cube/Cube.cpp.i
 
-main.s: main.cpp.s
+Cube/Cube.s: Cube/Cube.cpp.s
 
-.PHONY : main.s
+.PHONY : Cube/Cube.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/main.cpp.s
-.PHONY : main.cpp.s
+Cube/Cube.cpp.s:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube/Cube.cpp.s
+.PHONY : Cube/Cube.cpp.s
+
+Cube/main.o: Cube/main.cpp.o
+
+.PHONY : Cube/main.o
+
+# target to build an object file
+Cube/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube/main.cpp.o
+.PHONY : Cube/main.cpp.o
+
+Cube/main.i: Cube/main.cpp.i
+
+.PHONY : Cube/main.i
+
+# target to preprocess a source file
+Cube/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube/main.cpp.i
+.PHONY : Cube/main.cpp.i
+
+Cube/main.s: Cube/main.cpp.s
+
+.PHONY : Cube/main.s
+
+# target to generate assembly for a file
+Cube/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cube.dir/build.make CMakeFiles/cube.dir/Cube/main.cpp.s
+.PHONY : Cube/main.cpp.s
+
+NameSpace/Cube.o: NameSpace/Cube.cpp.o
+
+.PHONY : NameSpace/Cube.o
+
+# target to build an object file
+NameSpace/Cube.cpp.o:
+	$(MAKE) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/NameSpace/Cube.cpp.o
+.PHONY : NameSpace/Cube.cpp.o
+
+NameSpace/Cube.i: NameSpace/Cube.cpp.i
+
+.PHONY : NameSpace/Cube.i
+
+# target to preprocess a source file
+NameSpace/Cube.cpp.i:
+	$(MAKE) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/NameSpace/Cube.cpp.i
+.PHONY : NameSpace/Cube.cpp.i
+
+NameSpace/Cube.s: NameSpace/Cube.cpp.s
+
+.PHONY : NameSpace/Cube.s
+
+# target to generate assembly for a file
+NameSpace/Cube.cpp.s:
+	$(MAKE) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/NameSpace/Cube.cpp.s
+.PHONY : NameSpace/Cube.cpp.s
+
+NameSpace/main.o: NameSpace/main.cpp.o
+
+.PHONY : NameSpace/main.o
+
+# target to build an object file
+NameSpace/main.cpp.o:
+	$(MAKE) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/NameSpace/main.cpp.o
+.PHONY : NameSpace/main.cpp.o
+
+NameSpace/main.i: NameSpace/main.cpp.i
+
+.PHONY : NameSpace/main.i
+
+# target to preprocess a source file
+NameSpace/main.cpp.i:
+	$(MAKE) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/NameSpace/main.cpp.i
+.PHONY : NameSpace/main.cpp.i
+
+NameSpace/main.s: NameSpace/main.cpp.s
+
+.PHONY : NameSpace/main.s
+
+# target to generate assembly for a file
+NameSpace/main.cpp.s:
+	$(MAKE) -f CMakeFiles/namespace.dir/build.make CMakeFiles/namespace.dir/NameSpace/main.cpp.s
+.PHONY : NameSpace/main.cpp.s
 
 # Help Target
 help:
@@ -185,13 +252,20 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... namespace"
 	@echo "... cube"
-	@echo "... Cube.o"
-	@echo "... Cube.i"
-	@echo "... Cube.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Cube/Cube.o"
+	@echo "... Cube/Cube.i"
+	@echo "... Cube/Cube.s"
+	@echo "... Cube/main.o"
+	@echo "... Cube/main.i"
+	@echo "... Cube/main.s"
+	@echo "... NameSpace/Cube.o"
+	@echo "... NameSpace/Cube.i"
+	@echo "... NameSpace/Cube.s"
+	@echo "... NameSpace/main.o"
+	@echo "... NameSpace/main.i"
+	@echo "... NameSpace/main.s"
 .PHONY : help
 
 

@@ -1,3 +1,4 @@
 /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/rebuild_cache.dir
 /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/edit_cache.dir
+/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/namespace.dir
 /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles/cube.dir

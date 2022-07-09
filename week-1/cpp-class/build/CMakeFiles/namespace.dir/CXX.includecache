@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/NameSpace/Cube.h
+
+/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/NameSpace/main.cpp
+Cube.h
+/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/NameSpace/Cube.h
+iostream
+-
+

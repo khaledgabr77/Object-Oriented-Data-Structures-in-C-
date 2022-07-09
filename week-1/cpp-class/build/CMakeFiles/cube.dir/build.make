@@ -57,42 +57,42 @@ include CMakeFiles/cube.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cube.dir/flags.make
 
-CMakeFiles/cube.dir/main.cpp.o: CMakeFiles/cube.dir/flags.make
-CMakeFiles/cube.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cube.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/main.cpp.o -c /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/main.cpp
+CMakeFiles/cube.dir/Cube/main.cpp.o: CMakeFiles/cube.dir/flags.make
+CMakeFiles/cube.dir/Cube/main.cpp.o: ../Cube/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cube.dir/Cube/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/Cube/main.cpp.o -c /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/main.cpp
 
-CMakeFiles/cube.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/main.cpp > CMakeFiles/cube.dir/main.cpp.i
+CMakeFiles/cube.dir/Cube/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/Cube/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/main.cpp > CMakeFiles/cube.dir/Cube/main.cpp.i
 
-CMakeFiles/cube.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/main.cpp -o CMakeFiles/cube.dir/main.cpp.s
+CMakeFiles/cube.dir/Cube/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/Cube/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/main.cpp -o CMakeFiles/cube.dir/Cube/main.cpp.s
 
-CMakeFiles/cube.dir/Cube.cpp.o: CMakeFiles/cube.dir/flags.make
-CMakeFiles/cube.dir/Cube.cpp.o: ../Cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cube.dir/Cube.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/Cube.cpp.o -c /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube.cpp
+CMakeFiles/cube.dir/Cube/Cube.cpp.o: CMakeFiles/cube.dir/flags.make
+CMakeFiles/cube.dir/Cube/Cube.cpp.o: ../Cube/Cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cube.dir/Cube/Cube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cube.dir/Cube/Cube.cpp.o -c /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/Cube.cpp
 
-CMakeFiles/cube.dir/Cube.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/Cube.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube.cpp > CMakeFiles/cube.dir/Cube.cpp.i
+CMakeFiles/cube.dir/Cube/Cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cube.dir/Cube/Cube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/Cube.cpp > CMakeFiles/cube.dir/Cube/Cube.cpp.i
 
-CMakeFiles/cube.dir/Cube.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/Cube.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube.cpp -o CMakeFiles/cube.dir/Cube.cpp.s
+CMakeFiles/cube.dir/Cube/Cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cube.dir/Cube/Cube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/Cube.cpp -o CMakeFiles/cube.dir/Cube/Cube.cpp.s
 
 # Object files for target cube
 cube_OBJECTS = \
-"CMakeFiles/cube.dir/main.cpp.o" \
-"CMakeFiles/cube.dir/Cube.cpp.o"
+"CMakeFiles/cube.dir/Cube/main.cpp.o" \
+"CMakeFiles/cube.dir/Cube/Cube.cpp.o"
 
 # External object files for target cube
 cube_EXTERNAL_OBJECTS =
 
-cube: CMakeFiles/cube.dir/main.cpp.o
-cube: CMakeFiles/cube.dir/Cube.cpp.o
+cube: CMakeFiles/cube.dir/Cube/main.cpp.o
+cube: CMakeFiles/cube.dir/Cube/Cube.cpp.o
 cube: CMakeFiles/cube.dir/build.make
 cube: CMakeFiles/cube.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cube"

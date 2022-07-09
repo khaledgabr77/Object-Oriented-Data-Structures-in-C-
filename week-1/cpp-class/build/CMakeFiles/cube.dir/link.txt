@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/cube.dir/main.cpp.o CMakeFiles/cube.dir/Cube.cpp.o  -o cube 
+/usr/bin/c++     CMakeFiles/cube.dir/Cube/main.cpp.o CMakeFiles/cube.dir/Cube/Cube.cpp.o  -o cube 

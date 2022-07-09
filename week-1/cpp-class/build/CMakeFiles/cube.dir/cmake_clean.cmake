@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cube.dir/Cube.cpp.o"
-  "CMakeFiles/cube.dir/main.cpp.o"
+  "CMakeFiles/cube.dir/Cube/Cube.cpp.o"
+  "CMakeFiles/cube.dir/Cube/main.cpp.o"
   "cube"
   "cube.pdb"
 )

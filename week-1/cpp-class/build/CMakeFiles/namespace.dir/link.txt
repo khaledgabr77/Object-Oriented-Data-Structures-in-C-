@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/namespace.dir/NameSpace/main.cpp.o CMakeFiles/namespace.dir/NameSpace/Cube.cpp.o  -o namespace 

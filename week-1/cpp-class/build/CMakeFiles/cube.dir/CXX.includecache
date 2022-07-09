@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube.cpp
-Cube.h
-/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube.h
+/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/Cube.h
 
-/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube.h
+/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/main.cpp
+Cube.h
+/home/systemtrio/Desktop/ToBe-NotToBe/week-1/cpp-class/Cube/Cube.h
+iostream
+-
 

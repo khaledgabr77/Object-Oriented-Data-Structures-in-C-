@@ -4,7 +4,7 @@
 int main(){
 
     Cube c;
-    c.setLenght(3.48);
+    c.setLenght(2.4);
     double vloume = c.getVolume();
     double surfaceArea = c.getSurfaceArea();
     std::cout << "Volume: " << vloume << std::endl;
