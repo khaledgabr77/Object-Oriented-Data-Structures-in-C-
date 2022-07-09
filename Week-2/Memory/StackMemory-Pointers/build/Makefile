@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemo
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named puz
+
+# Build rule for target.
+puz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 puz
+.PHONY : puz
+
+# fast build rule for target.
+puz/fast:
+	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/build
+.PHONY : puz/fast
+
+#=============================================================================
+# Target rules for targets named foo
+
+# Build rule for target.
+foo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 foo
+.PHONY : foo
+
+# fast build rule for target.
+foo/fast:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+.PHONY : foo/fast
 
 #=============================================================================
 # Target rules for targets named address
@@ -150,18 +176,80 @@ addressOf.cpp.s:
 	$(MAKE) -f CMakeFiles/address.dir/build.make CMakeFiles/address.dir/addressOf.cpp.s
 .PHONY : addressOf.cpp.s
 
+foo.o: foo.cpp.o
+
+.PHONY : foo.o
+
+# target to build an object file
+foo.cpp.o:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cpp.o
+.PHONY : foo.cpp.o
+
+foo.i: foo.cpp.i
+
+.PHONY : foo.i
+
+# target to preprocess a source file
+foo.cpp.i:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cpp.i
+.PHONY : foo.cpp.i
+
+foo.s: foo.cpp.s
+
+.PHONY : foo.s
+
+# target to generate assembly for a file
+foo.cpp.s:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cpp.s
+.PHONY : foo.cpp.s
+
+puzzle.o: puzzle.cpp.o
+
+.PHONY : puzzle.o
+
+# target to build an object file
+puzzle.cpp.o:
+	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/puzzle.cpp.o
+.PHONY : puzzle.cpp.o
+
+puzzle.i: puzzle.cpp.i
+
+.PHONY : puzzle.i
+
+# target to preprocess a source file
+puzzle.cpp.i:
+	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/puzzle.cpp.i
+.PHONY : puzzle.cpp.i
+
+puzzle.s: puzzle.cpp.s
+
+.PHONY : puzzle.s
+
+# target to generate assembly for a file
+puzzle.cpp.s:
+	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/puzzle.cpp.s
+.PHONY : puzzle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... puz"
+	@echo "... foo"
 	@echo "... address"
 	@echo "... addressOf.o"
 	@echo "... addressOf.i"
 	@echo "... addressOf.s"
+	@echo "... foo.o"
+	@echo "... foo.i"
+	@echo "... foo.s"
+	@echo "... puzzle.o"
+	@echo "... puzzle.i"
+	@echo "... puzzle.s"
 .PHONY : help
 
 

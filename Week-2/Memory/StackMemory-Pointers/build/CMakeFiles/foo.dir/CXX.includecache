@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/foo.cpp
+iostream
+-
+

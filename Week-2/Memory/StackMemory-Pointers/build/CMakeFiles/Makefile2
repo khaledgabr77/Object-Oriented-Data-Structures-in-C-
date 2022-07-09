@@ -53,6 +53,8 @@ CMAKE_BINARY_DIR = /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemo
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/puz.dir/all
+all: CMakeFiles/foo.dir/all
 all: CMakeFiles/address.dir/all
 
 .PHONY : all
@@ -63,9 +65,65 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/puz.dir/clean
+clean: CMakeFiles/foo.dir/clean
 clean: CMakeFiles/address.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/puz.dir
+
+# All Build rule for target.
+CMakeFiles/puz.dir/all:
+	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/depend
+	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles --progress-num=5,6 "Built target puz"
+.PHONY : CMakeFiles/puz.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/puz.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/puz.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 0
+.PHONY : CMakeFiles/puz.dir/rule
+
+# Convenience name for target.
+puz: CMakeFiles/puz.dir/rule
+
+.PHONY : puz
+
+# clean rule for target.
+CMakeFiles/puz.dir/clean:
+	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/clean
+.PHONY : CMakeFiles/puz.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/foo.dir
+
+# All Build rule for target.
+CMakeFiles/foo.dir/all:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles --progress-num=3,4 "Built target foo"
+.PHONY : CMakeFiles/foo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/foo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/foo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 0
+.PHONY : CMakeFiles/foo.dir/rule
+
+# Convenience name for target.
+foo: CMakeFiles/foo.dir/rule
+
+.PHONY : foo
+
+# clean rule for target.
+CMakeFiles/foo.dir/clean:
+	$(MAKE) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/clean
+.PHONY : CMakeFiles/foo.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/address.dir
