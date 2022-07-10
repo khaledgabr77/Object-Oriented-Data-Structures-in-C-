@@ -111,71 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ex3
+# Target rules for targets named chal
 
 # Build rule for target.
-ex3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ex3
-.PHONY : ex3
+chal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chal
+.PHONY : chal
 
 # fast build rule for target.
-ex3/fast:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/build
-.PHONY : ex3/fast
+chal/fast:
+	$(MAKE) -f CMakeFiles/chal.dir/build.make CMakeFiles/chal.dir/build
+.PHONY : chal/fast
 
-Cube.o: Cube.cpp.o
+challenge.o: challenge.cpp.o
 
-.PHONY : Cube.o
-
-# target to build an object file
-Cube.cpp.o:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/Cube.cpp.o
-.PHONY : Cube.cpp.o
-
-Cube.i: Cube.cpp.i
-
-.PHONY : Cube.i
-
-# target to preprocess a source file
-Cube.cpp.i:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/Cube.cpp.i
-.PHONY : Cube.cpp.i
-
-Cube.s: Cube.cpp.s
-
-.PHONY : Cube.s
-
-# target to generate assembly for a file
-Cube.cpp.s:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/Cube.cpp.s
-.PHONY : Cube.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : challenge.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/main.cpp.o
-.PHONY : main.cpp.o
+challenge.cpp.o:
+	$(MAKE) -f CMakeFiles/chal.dir/build.make CMakeFiles/chal.dir/challenge.cpp.o
+.PHONY : challenge.cpp.o
 
-main.i: main.cpp.i
+challenge.i: challenge.cpp.i
 
-.PHONY : main.i
+.PHONY : challenge.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/main.cpp.i
-.PHONY : main.cpp.i
+challenge.cpp.i:
+	$(MAKE) -f CMakeFiles/chal.dir/build.make CMakeFiles/chal.dir/challenge.cpp.i
+.PHONY : challenge.cpp.i
 
-main.s: main.cpp.s
+challenge.s: challenge.cpp.s
 
-.PHONY : main.s
+.PHONY : challenge.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/main.cpp.s
-.PHONY : main.cpp.s
+challenge.cpp.s:
+	$(MAKE) -f CMakeFiles/chal.dir/build.make CMakeFiles/chal.dir/challenge.cpp.s
+.PHONY : challenge.cpp.s
 
 # Help Target
 help:
@@ -185,13 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... ex3"
-	@echo "... Cube.o"
-	@echo "... Cube.i"
-	@echo "... Cube.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... chal"
+	@echo "... challenge.o"
+	@echo "... challenge.i"
+	@echo "... challenge.s"
 .PHONY : help
 
 

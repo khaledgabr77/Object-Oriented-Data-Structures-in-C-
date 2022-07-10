@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/chal.dir/challenge.cpp.o  -o chal 

@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex3/bui
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ex3.dir/all
+all: CMakeFiles/chal.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ex3.dir/clean
+clean: CMakeFiles/chal.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ex3.dir
+# Target rules for target CMakeFiles/chal.dir
 
 # All Build rule for target.
-CMakeFiles/ex3.dir/all:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/depend
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex3/build/CMakeFiles --progress-num=1,2,3 "Built target ex3"
-.PHONY : CMakeFiles/ex3.dir/all
+CMakeFiles/chal.dir/all:
+	$(MAKE) -f CMakeFiles/chal.dir/build.make CMakeFiles/chal.dir/depend
+	$(MAKE) -f CMakeFiles/chal.dir/build.make CMakeFiles/chal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex3/build/CMakeFiles --progress-num=1,2 "Built target chal"
+.PHONY : CMakeFiles/chal.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ex3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex3/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ex3.dir/all
+CMakeFiles/chal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex3/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/chal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex3/build/CMakeFiles 0
-.PHONY : CMakeFiles/ex3.dir/rule
+.PHONY : CMakeFiles/chal.dir/rule
 
 # Convenience name for target.
-ex3: CMakeFiles/ex3.dir/rule
+chal: CMakeFiles/chal.dir/rule
 
-.PHONY : ex3
+.PHONY : chal
 
 # clean rule for target.
-CMakeFiles/ex3.dir/clean:
-	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/clean
-.PHONY : CMakeFiles/ex3.dir/clean
+CMakeFiles/chal.dir/clean:
+	$(MAKE) -f CMakeFiles/chal.dir/build.make CMakeFiles/chal.dir/clean
+.PHONY : CMakeFiles/chal.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
