@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex1/Cube.cpp
+Cube.h
+/home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex1/Cube.h
+
+/home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex1/Cube.h
+
+/home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex1/main.cpp
+Cube.h
+/home/systemtrio/Desktop/ToBe-NotToBe/Week-3/ccp-ctor/ex1/Cube.h
+iostream
+-
+
