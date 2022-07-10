@@ -53,6 +53,10 @@ CMAKE_BINARY_DIR = /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemo
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/puzzle4.dir/all
+all: CMakeFiles/puzzle2.dir/all
+all: CMakeFiles/puzzle1.dir/all
+all: CMakeFiles/puzzle3.dir/all
 all: CMakeFiles/heap.dir/all
 all: CMakeFiles/puz.dir/all
 all: CMakeFiles/foo.dir/all
@@ -67,6 +71,10 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/puzzle4.dir/clean
+clean: CMakeFiles/puzzle2.dir/clean
+clean: CMakeFiles/puzzle1.dir/clean
+clean: CMakeFiles/puzzle3.dir/clean
 clean: CMakeFiles/heap.dir/clean
 clean: CMakeFiles/puz.dir/clean
 clean: CMakeFiles/foo.dir/clean
@@ -74,6 +82,114 @@ clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/address.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/puzzle4.dir
+
+# All Build rule for target.
+CMakeFiles/puzzle4.dir/all:
+	$(MAKE) -f CMakeFiles/puzzle4.dir/build.make CMakeFiles/puzzle4.dir/depend
+	$(MAKE) -f CMakeFiles/puzzle4.dir/build.make CMakeFiles/puzzle4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles --progress-num=17,18 "Built target puzzle4"
+.PHONY : CMakeFiles/puzzle4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/puzzle4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/puzzle4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 0
+.PHONY : CMakeFiles/puzzle4.dir/rule
+
+# Convenience name for target.
+puzzle4: CMakeFiles/puzzle4.dir/rule
+
+.PHONY : puzzle4
+
+# clean rule for target.
+CMakeFiles/puzzle4.dir/clean:
+	$(MAKE) -f CMakeFiles/puzzle4.dir/build.make CMakeFiles/puzzle4.dir/clean
+.PHONY : CMakeFiles/puzzle4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/puzzle2.dir
+
+# All Build rule for target.
+CMakeFiles/puzzle2.dir/all:
+	$(MAKE) -f CMakeFiles/puzzle2.dir/build.make CMakeFiles/puzzle2.dir/depend
+	$(MAKE) -f CMakeFiles/puzzle2.dir/build.make CMakeFiles/puzzle2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles --progress-num=13,14 "Built target puzzle2"
+.PHONY : CMakeFiles/puzzle2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/puzzle2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/puzzle2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 0
+.PHONY : CMakeFiles/puzzle2.dir/rule
+
+# Convenience name for target.
+puzzle2: CMakeFiles/puzzle2.dir/rule
+
+.PHONY : puzzle2
+
+# clean rule for target.
+CMakeFiles/puzzle2.dir/clean:
+	$(MAKE) -f CMakeFiles/puzzle2.dir/build.make CMakeFiles/puzzle2.dir/clean
+.PHONY : CMakeFiles/puzzle2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/puzzle1.dir
+
+# All Build rule for target.
+CMakeFiles/puzzle1.dir/all:
+	$(MAKE) -f CMakeFiles/puzzle1.dir/build.make CMakeFiles/puzzle1.dir/depend
+	$(MAKE) -f CMakeFiles/puzzle1.dir/build.make CMakeFiles/puzzle1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles --progress-num=11,12 "Built target puzzle1"
+.PHONY : CMakeFiles/puzzle1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/puzzle1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/puzzle1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 0
+.PHONY : CMakeFiles/puzzle1.dir/rule
+
+# Convenience name for target.
+puzzle1: CMakeFiles/puzzle1.dir/rule
+
+.PHONY : puzzle1
+
+# clean rule for target.
+CMakeFiles/puzzle1.dir/clean:
+	$(MAKE) -f CMakeFiles/puzzle1.dir/build.make CMakeFiles/puzzle1.dir/clean
+.PHONY : CMakeFiles/puzzle1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/puzzle3.dir
+
+# All Build rule for target.
+CMakeFiles/puzzle3.dir/all:
+	$(MAKE) -f CMakeFiles/puzzle3.dir/build.make CMakeFiles/puzzle3.dir/depend
+	$(MAKE) -f CMakeFiles/puzzle3.dir/build.make CMakeFiles/puzzle3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles --progress-num=15,16 "Built target puzzle3"
+.PHONY : CMakeFiles/puzzle3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/puzzle3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/puzzle3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/systemtrio/Desktop/ToBe-NotToBe/Week-2/Memory/StackMemory-Pointers/build/CMakeFiles 0
+.PHONY : CMakeFiles/puzzle3.dir/rule
+
+# Convenience name for target.
+puzzle3: CMakeFiles/puzzle3.dir/rule
+
+.PHONY : puzzle3
+
+# clean rule for target.
+CMakeFiles/puzzle3.dir/clean:
+	$(MAKE) -f CMakeFiles/puzzle3.dir/build.make CMakeFiles/puzzle3.dir/clean
+.PHONY : CMakeFiles/puzzle3.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/heap.dir

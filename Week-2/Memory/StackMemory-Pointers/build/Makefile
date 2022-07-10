@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named puzzle4
+
+# Build rule for target.
+puzzle4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 puzzle4
+.PHONY : puzzle4
+
+# fast build rule for target.
+puzzle4/fast:
+	$(MAKE) -f CMakeFiles/puzzle4.dir/build.make CMakeFiles/puzzle4.dir/build
+.PHONY : puzzle4/fast
+
+#=============================================================================
+# Target rules for targets named puzzle2
+
+# Build rule for target.
+puzzle2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 puzzle2
+.PHONY : puzzle2
+
+# fast build rule for target.
+puzzle2/fast:
+	$(MAKE) -f CMakeFiles/puzzle2.dir/build.make CMakeFiles/puzzle2.dir/build
+.PHONY : puzzle2/fast
+
+#=============================================================================
+# Target rules for targets named puzzle1
+
+# Build rule for target.
+puzzle1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 puzzle1
+.PHONY : puzzle1
+
+# fast build rule for target.
+puzzle1/fast:
+	$(MAKE) -f CMakeFiles/puzzle1.dir/build.make CMakeFiles/puzzle1.dir/build
+.PHONY : puzzle1/fast
+
+#=============================================================================
+# Target rules for targets named puzzle3
+
+# Build rule for target.
+puzzle3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 puzzle3
+.PHONY : puzzle3
+
+# fast build rule for target.
+puzzle3/fast:
+	$(MAKE) -f CMakeFiles/puzzle3.dir/build.make CMakeFiles/puzzle3.dir/build
+.PHONY : puzzle3/fast
+
+#=============================================================================
 # Target rules for targets named heap
 
 # Build rule for target.
@@ -310,13 +362,125 @@ puzzle.cpp.s:
 	$(MAKE) -f CMakeFiles/puz.dir/build.make CMakeFiles/puz.dir/puzzle.cpp.s
 .PHONY : puzzle.cpp.s
 
+puzzle1.o: puzzle1.cpp.o
+
+.PHONY : puzzle1.o
+
+# target to build an object file
+puzzle1.cpp.o:
+	$(MAKE) -f CMakeFiles/puzzle1.dir/build.make CMakeFiles/puzzle1.dir/puzzle1.cpp.o
+.PHONY : puzzle1.cpp.o
+
+puzzle1.i: puzzle1.cpp.i
+
+.PHONY : puzzle1.i
+
+# target to preprocess a source file
+puzzle1.cpp.i:
+	$(MAKE) -f CMakeFiles/puzzle1.dir/build.make CMakeFiles/puzzle1.dir/puzzle1.cpp.i
+.PHONY : puzzle1.cpp.i
+
+puzzle1.s: puzzle1.cpp.s
+
+.PHONY : puzzle1.s
+
+# target to generate assembly for a file
+puzzle1.cpp.s:
+	$(MAKE) -f CMakeFiles/puzzle1.dir/build.make CMakeFiles/puzzle1.dir/puzzle1.cpp.s
+.PHONY : puzzle1.cpp.s
+
+puzzle2.o: puzzle2.cpp.o
+
+.PHONY : puzzle2.o
+
+# target to build an object file
+puzzle2.cpp.o:
+	$(MAKE) -f CMakeFiles/puzzle2.dir/build.make CMakeFiles/puzzle2.dir/puzzle2.cpp.o
+.PHONY : puzzle2.cpp.o
+
+puzzle2.i: puzzle2.cpp.i
+
+.PHONY : puzzle2.i
+
+# target to preprocess a source file
+puzzle2.cpp.i:
+	$(MAKE) -f CMakeFiles/puzzle2.dir/build.make CMakeFiles/puzzle2.dir/puzzle2.cpp.i
+.PHONY : puzzle2.cpp.i
+
+puzzle2.s: puzzle2.cpp.s
+
+.PHONY : puzzle2.s
+
+# target to generate assembly for a file
+puzzle2.cpp.s:
+	$(MAKE) -f CMakeFiles/puzzle2.dir/build.make CMakeFiles/puzzle2.dir/puzzle2.cpp.s
+.PHONY : puzzle2.cpp.s
+
+puzzle3.o: puzzle3.cpp.o
+
+.PHONY : puzzle3.o
+
+# target to build an object file
+puzzle3.cpp.o:
+	$(MAKE) -f CMakeFiles/puzzle3.dir/build.make CMakeFiles/puzzle3.dir/puzzle3.cpp.o
+.PHONY : puzzle3.cpp.o
+
+puzzle3.i: puzzle3.cpp.i
+
+.PHONY : puzzle3.i
+
+# target to preprocess a source file
+puzzle3.cpp.i:
+	$(MAKE) -f CMakeFiles/puzzle3.dir/build.make CMakeFiles/puzzle3.dir/puzzle3.cpp.i
+.PHONY : puzzle3.cpp.i
+
+puzzle3.s: puzzle3.cpp.s
+
+.PHONY : puzzle3.s
+
+# target to generate assembly for a file
+puzzle3.cpp.s:
+	$(MAKE) -f CMakeFiles/puzzle3.dir/build.make CMakeFiles/puzzle3.dir/puzzle3.cpp.s
+.PHONY : puzzle3.cpp.s
+
+puzzle4.o: puzzle4.cpp.o
+
+.PHONY : puzzle4.o
+
+# target to build an object file
+puzzle4.cpp.o:
+	$(MAKE) -f CMakeFiles/puzzle4.dir/build.make CMakeFiles/puzzle4.dir/puzzle4.cpp.o
+.PHONY : puzzle4.cpp.o
+
+puzzle4.i: puzzle4.cpp.i
+
+.PHONY : puzzle4.i
+
+# target to preprocess a source file
+puzzle4.cpp.i:
+	$(MAKE) -f CMakeFiles/puzzle4.dir/build.make CMakeFiles/puzzle4.dir/puzzle4.cpp.i
+.PHONY : puzzle4.cpp.i
+
+puzzle4.s: puzzle4.cpp.s
+
+.PHONY : puzzle4.s
+
+# target to generate assembly for a file
+puzzle4.cpp.s:
+	$(MAKE) -f CMakeFiles/puzzle4.dir/build.make CMakeFiles/puzzle4.dir/puzzle4.cpp.s
+.PHONY : puzzle4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... puzzle4"
 	@echo "... edit_cache"
+	@echo "... puzzle2"
+	@echo "... puzzle1"
+	@echo "... puzzle3"
 	@echo "... heap"
 	@echo "... rebuild_cache"
 	@echo "... puz"
@@ -338,6 +502,18 @@ help:
 	@echo "... puzzle.o"
 	@echo "... puzzle.i"
 	@echo "... puzzle.s"
+	@echo "... puzzle1.o"
+	@echo "... puzzle1.i"
+	@echo "... puzzle1.s"
+	@echo "... puzzle2.o"
+	@echo "... puzzle2.i"
+	@echo "... puzzle2.s"
+	@echo "... puzzle3.o"
+	@echo "... puzzle3.i"
+	@echo "... puzzle3.s"
+	@echo "... puzzle4.o"
+	@echo "... puzzle4.i"
+	@echo "... puzzle4.s"
 .PHONY : help
 
 

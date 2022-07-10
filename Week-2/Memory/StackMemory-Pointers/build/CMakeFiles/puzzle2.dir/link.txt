@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/puzzle2.dir/puzzle2.cpp.o  -o puzzle2 

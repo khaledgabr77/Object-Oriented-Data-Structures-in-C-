@@ -9,4 +9,7 @@ add_executable(puz puzzle.cpp)
 add_executable(main main.cpp)
 add_executable(heap HeapMemory.cpp)
 
-
+add_executable(puzzle1 puzzle1.cpp)
+add_executable(puzzle2 puzzle2.cpp)
+add_executable(puzzle3 puzzle3.cpp)
+add_executable(puzzle4 puzzle4.cpp)

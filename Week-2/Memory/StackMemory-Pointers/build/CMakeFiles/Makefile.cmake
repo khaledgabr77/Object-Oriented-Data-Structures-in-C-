@@ -45,6 +45,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/puzzle4.dir/DependInfo.cmake"
+  "CMakeFiles/puzzle2.dir/DependInfo.cmake"
+  "CMakeFiles/puzzle1.dir/DependInfo.cmake"
+  "CMakeFiles/puzzle3.dir/DependInfo.cmake"
   "CMakeFiles/heap.dir/DependInfo.cmake"
   "CMakeFiles/puz.dir/DependInfo.cmake"
   "CMakeFiles/foo.dir/DependInfo.cmake"

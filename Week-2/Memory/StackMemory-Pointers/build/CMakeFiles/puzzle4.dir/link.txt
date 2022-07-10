@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/puzzle4.dir/puzzle4.cpp.o  -o puzzle4 
